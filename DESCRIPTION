@@ -12,3 +12,5 @@ Imports:
     MendelianRandomization,
     stats
 Config/roxygen2/version: 8.0.0
+URL: https://github.com/Qasim-stat/MRAlasso
+BugReports: https://github.com/Qasim-stat/MRAlasso/issues
