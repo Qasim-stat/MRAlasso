@@ -1,0 +1,14 @@
+Package: MRAlasso
+Title: Adaptive Lasso Methods for Mendelian Randomization
+Version: 0.0.1
+Authors@R: 
+    person("Muhammad", "Qasim", email = "qasim.stat@gmail.com", role = c("aut", "cre"))
+Description: Implements adaptive MR-Lasso and bootstrap adaptive MR-Lasso methods for Mendelian randomization using summary-level data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports:
+    glmnet,
+    MendelianRandomization,
+    stats
+Config/roxygen2/version: 8.0.0
