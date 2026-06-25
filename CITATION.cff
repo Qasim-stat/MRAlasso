@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "MRAlasso: Adaptive Penalization and Bootstrap-Smoothed Inference in Two-Sample Mendelian Randomization"
+version: "v0.1.0"
+date-released: "2026-06-25"
+doi: "10.5281/zenodo.20843253"
+repository-code: "https://github.com/Qasim-stat/MRAlasso"
+url: "https://github.com/Qasim-stat/MRAlasso"
+license: "MIT"
+authors:
+  - family-names: "Qasim"
+    given-names: "Muhammad"
