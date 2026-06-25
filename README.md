@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20843253.svg)](https://doi.org/10.5281/zenodo.20843253)
 
-`MRAlasso` is an R package for adaptive penalized Mendelian randomization using summary-level data. The package implements adaptive MR-Lasso and a bootstrap-smoothed adaptive MR-Lasso estimator for two-sample Mendelian randomization analyses in the presence of horizontal pleiotropy.
+`MRAlasso` is an R package for adaptive penalized Mendelian randomization using summary-level data. The package implements adaptive MR-Lasso (MR-ALasso) and a bootstrap-smoothed MR-ALasso estimator for two-sample Mendelian randomization analyses in the presence of horizontal pleiotropy.
 
 
 ## Installation
@@ -30,7 +30,7 @@ mr_alasso(object)
 
 where `object` is an `MRInput` object created using `MendelianRandomization::mr_input()`.
 
-The ordinary adaptive MR-Lasso estimator can be fitted using:
+The MR-ALasso estimator can be fitted using
 
 ```r
 fit = mr_alasso(object)
